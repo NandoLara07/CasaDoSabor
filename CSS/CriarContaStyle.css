@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagens/FundoDesfocado.jpg');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+.content { 
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: auto;
+    padding: 35px 50px;
+    flex-direction: column;
+    margin: 40px;
+    
+}
+
+label {
+    font-size: 25px;
+    color: #000000;
+    font-family: Arial;
+}
+
+input:focus {
+    outline-color: #3483FA;
+    border-color: #3483FA;
+}
+
+#primeiro-nome {
+    width: 150px; 
+    height: 40px; 
+    padding: 5px;  
+    border: 1px solid #BFBFBF;
+    font-size: 20px; 
+    border-radius: 5px;
+}
+
+#sobrenome {
+    width: 300px; 
+    height: 40px; 
+    padding: 5px;  
+    border: 1px solid #BFBFBF;
+    font-size: 20px; 
+    border-radius: 5px;
+}
+
+#email, #senha { 
+    height: 40px; 
+    padding: 5px;  
+    border: 1px solid #BFBFBF;
+    font-size: 20px; 
+    border-radius: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 120px;
+    margin-bottom: 60px;
+}
+
+.nome {
+    display: flex;
+    gap: 30px;
+}
+
+.primeiro-nome {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobrenome {
+    display: flex;
+    flex-direction: column;
+}
+
+.email, .senha, .senha-confirmar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.conta-existente {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.conta-existente a {
+    text-decoration: none;
+    color: #1865F2;
+    font-family: Arial;
+}
+
+.conta-existente a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.button a {
+    background-color: #0078D4;
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.criar-conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.criar-conta:hover {
+    background-color: #005DA6;
+}
+

@@ -1,0 +1,185 @@
+<!-- Casa do Sabor é uma rede de restaurantes especializados em comida caseira e receitas
+tradicionais. Eles querem criar um site em HTML e CSS para mostrar seu cardápio, fotos
+dos pratos e informações sobre os restaurantes. O site deve incluir uma seção para
+reservas online, uma tabela com horários de funcionamento e uma página dedicada a
+receitas especiais. O design deve ser acolhedor e familiar, utilizando cores quentes e
+imagens que realcem a autenticidade e o sabor dos pratos. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Sabor</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="../imagens/icone.ico">
+</head>
+<body>
+    <div class="fundo" id="home"></div> 
+    <div class="logo">
+        <img src="imagens/CasaDoSabor.png" alt="Logo Casa do Sabor" class="imagem">
+        <a href="Diversos/login.html" class="login">Entrar</a>
+    </div>
+
+    <header class="cabecalho">
+        <a href="#home" class="comida"><span class="material-icons">home</span></a>
+        <a href="#pratos" class="comida">Pratos</a> 
+        <a href="#quitandas" class="comida">Quitandas</a>
+        <a href="#bebidas" class="comida">Bebidas</a>
+        <a href="#receitas" class="comida">Receitas Especiais</a>
+        <a href="#horarios" class="comida">Horários</a>
+    </header> 
+
+
+
+    <main>
+        <div class="opcoes">
+            <section id="pratos">
+                <h2 class="tpratos">PRATOS 🍽️</h2>
+                <div class="bcouve">
+                  <a href="Produtos/Bambá_De_Couve.html"><img src="imagens/Bambá-de-couve.jpg" alt="Bambá de Couve" class="pratoImagens"> <br></a>
+                  
+                  <p>O <span style="color: brown;">Bambá de Couve</span> é um prato mineiro, que traz à mesa o sabor da tradição. Com couve finamente picada e uma base de polenta, é temperado com alho e cebola, criando um aroma que faz qualquer um se sentir em casa! Cada garfada é um abraço quente da cultura mineira, evocando memórias e aconchego, fazendo do bambá uma verdadeira expressão do carinho e da simplicidade da comida caseira!</p>
+                </div>
+                
+                <div class="ftropeiro">
+                  <p>O <span style="color: brown;">Feijão tropeiro</span> é um clássico da culinária mineira que carrega a essência da hospitalidade e do afeto. Combinando feijão, farofa, linguiça e ovo, cada garfada é um verdadeiro festival de sabores que remete às tradições das troperias. O aroma convidativo e a textura reconfortante fazem desse prato uma lembrança calorosa das reuniões em família e dos almoços de domingo, onde cada porção é servida com amor e um toque de nostalgia!</p>
+                  <a href="Produtos/Feijao_Tropeiro.html"><img src="imagens/Feijao Tropeiro.jpg" alt="Feijão Tropeiro" class="pratoImagens"></a>
+                </div>
+
+                <div class="fpreto">
+                  <a href="Produtos/Feijao_Preto.html"><img src="imagens/Feijao Preto.jpg" alt="Feijão Preto" class="pratoImagens"></a>
+                  <p>O <span style="color: brown;">Feijão Preto</span> é um ícone da cozinha mineira, que simboliza aconchego e sabor autêntico. Com sua textura cremosa e sabor marcante, é frequentemente temperado com alho, cebola e especiarias, trazendo à mesa um aroma que acolhe a todos. Esse prato, presente em muitas refeições familiares, é mais do que um alimento; é um laço afetivo que conecta gerações, evocando memórias de casa e do calor dos encontros à volta da mesa. Cada colherada é um convite para saborear a simplicidade e a riqueza da tradição mineira.</p>
+                </div>
+
+                <div class="fpardo">
+                  <p>O <span style="color: brown;">Frango ao molho Pardo</span> é uma iguaria marcante da culinária mineira, que revela a riqueza dos sabores caseiros. Preparado com frango cozido em um molho encorpado de sangue, temperos e especiarias, esse prato é uma verdadeira explosão de sabor que envolve a alma. Cada garfada traz à tona lembranças de almoços familiares e encontros calorosos, onde o aroma inebriante convida a todos a se reunir à mesa. O frango ao molho pardo é mais do que uma refeição; é uma tradição que une, aquece e nutre o coração mineiro.</p>
+                  <a href="Produtos/Frango_Pardo.html"><img src="imagens/Frango ao molho pardo.jpg" alt="Feijão ao molho Pardo" class="pratoImagens"></a>
+                </div>
+
+                <div class="fquiabo">
+                  <a href="Produtos/Frango_Quiabo.html"><img src="imagens/Frango com Quiabo.jpg" alt="Frango com Quiabo" class="pratoImagens"></a>
+                  <p>O <span style="color: brown;">Frango com Quiabo</span> é um prato acolhedor da cozinha mineira, que une suculentos pedaços de frango ao saboroso quiabo. Temperado com alho e cebola, seu aroma irresistível convida a família a se reunir à mesa. Cada garfada evoca memórias de laços afetivos, transformando essa iguaria em uma celebração do amor e da simplicidade da comida caseira.</p>
+                </div>
+
+                <div class="fnobis">
+                  <p>O <span style="color: brown;">Frango com ora-pro-nobis</span> é uma iguaria da culinária mineira que combina pedaços suculentos de frango com as nutritivas folhas da planta. Temperado com alho e especiarias, seu aroma inconfundível desperta o apetite e o carinho. Cada garfada traz à mesa memórias de família e o aconchego das refeições compartilhadas, celebrando a riqueza da terra e a simplicidade da cozinha caseira.</p>
+                  <a href="Produtos/Frango_Nobis.html"><img src="imagens/Frango com ora-pro-nobis.jpg" alt="Frango com Ora-pro-Nobis" class="pratoImagens"></a>
+                </div>
+                
+            </section>
+
+            <section id="quitandas">
+                <h2 class="tquitandas">QUITANDAS 🍞</h2>
+                <div class="pqueijo">
+                  <a href="Produtos/Pao_Queijo.html"><img src="imagens/Pao de queijo.jpg" alt="" class="qImagens"></a>
+                  <p>Ahh, o que falar do <span style="color: brown;">Pão de Queijo</span>... Com certeza a primeira coisa que pensamos quando falamos em Minas Gerais! Crocante por fora, macio por dentro, cada mordida é um abraço caloroso que remete à simplicidade e ao carinho da culinária mineira! Feito com polvilho e queijo, seu aroma inconfundível desperta memórias de tardes em família e cafés compartilhados. O Pão de Queijo é muito mais que um lanche; é uma verdadeira tradição que aquece o coração.</p>
+                </div>
+
+                <div class="broa">
+                  <p>A <span style="color: brown;">Broa</span> é uma verdadeira joia da culinária mineira, com sua massa suave e levemente granulada, feita à base de fubá. Seu sabor levemente doce e o aroma convidativo trazem à tona lembranças de tardes na roça e cafés acolhedores. Simples e caseira, ela é um convite a momentos de pausa e reconforto, carregando consigo a tradição e o afeto da cozinha mineira.</p>
+                  <a href="Produtos/Broa.html"><img src="imagens/Broa.jpg" alt="Broa" class="qImagens"></a>
+                </div>
+
+                <div class="bpolvilho">
+                  <a href="Produtos/Biscoito_Polvilho.html"><img src="imagens/Biscoito de polvilho.jpg" alt="Biscoito de Polvilho" class="qImagens"></a>
+                  <p>O <span style="color: brown;">Biscoito de Polvilho</span> é um clássico da culinária mineira, leve e crocante, perfeito para qualquer momento. Feito com poucos ingredientes, seu sabor simples e textura aerada são inconfundíveis, trazendo à tona memórias de infância e lanches da tarde. Fácil de encontrar em qualquer casa mineira, o biscoito de polvilho é um símbolo de aconchego e tradição, que transforma algo simples em uma experiência cheia de afeto.</p>
+                </div>
+
+                <div class="rosca">
+                  <p>A <span style="color: brown;">Rosca</span> mineira é um símbolo de afeto e tradição, com seu formato trançado e sabor delicadamente adocicado. Feita com carinho, sua massa macia e levemente perfumada remete a cafés da manhã e lanches da tarde em família. O aroma que se espalha ao assar é um convite irresistível à mesa, trazendo uma sensação de acolhimento. Simples e caseira, a rosca é mais que um alimento, é uma parte essencial da cultura mineira que encanta e reconforta.</p>
+                  <a href="Produtos/Rosca.html"><img src="imagens/Rosca.jpg" alt="Rosca" class="qImagens"></a>
+                </div>
+
+                <div class="bfuba">
+                  <a href="Produtos/Bolo_Fuba.html"><img src="imagens/Bolo de Fubá.jpg" alt="Bolo de Fubá" class="qImagens"></a>
+                  <p>O <span style="color: brown;">Bolo de Fubá</span> é um clássico da cozinha mineira que exala simplicidade e carinho. Com sua textura leve e o sabor suave do milho, ele traz o aconchego das receitas caseiras. Perfeito para acompanhar um café, o aroma do bolo de fubá saindo do forno é irresistível, remetendo a tardes tranquilas e encontros em família. É um prato que representa a tradição mineira, transformando momentos simples em memórias afetuosas e saborosas.</p>
+                </div>
+            </section>
+            
+            <section id="bebidas">
+                <h2 class="tbebidas">BEBIDAS ☕</h2>
+                <div class="cafe">
+                  <a href="Produtos/Cafe.html"><img src="imagens/Cafe.jpg" alt="Café" class="bImagens"></a>
+                  <p>O <span style="color: brown;">Café</span> é a alma da mesa mineira, símbolo de hospitalidade e bons momentos. Com seu aroma forte e envolvente, ele desperta os sentidos e traz à tona a tradição de longas conversas acompanhadas de quitandas. Mais do que uma bebida, o café mineiro é um convite ao aconchego, transformando qualquer ocasião em um momento especial. Cada xícara reflete o calor das reuniões em família e o afeto presente em cada detalhe da cozinha caseira.</p>
+                </div>
+
+                <div class="slaranja">
+                  <p>O <span style="color: brown;">Suco de Laranja</span> é a refrescância perfeita da mesa mineira, com seu sabor cítrico e naturalmente doce. Espremido na hora, ele traz energia e leveza, complementando o calor das refeições caseiras. Sua acidez suave faz uma combinação deliciosa com o tradicional pão de queijo, criando um equilíbrio perfeito entre refrescante e reconfortante. Cada copo de suco de laranja carrega o frescor das frutas colhidas no quintal, tornando-se uma escolha simples, mas cheia de sabor e afeto.</p>
+                  <a href="Produtos/Suco_Laranja.html"><img src="imagens/Suco de Laranja.jpg" alt="Suco de Laranja" class="bImagens"></a>
+                </div>
+
+                <div class="suva">
+                  <a href="Produtos/Suco_Uva.html"><img src="imagens/Suco de Uva.jpg" alt="Suco de Uva" class="bImagens"></a>
+                  <p>O <span style="color: brown;">Suco de Uva</span> é uma deliciosa expressão da riqueza das frutas mineiras, trazendo um sabor doce e encorpado que encanta o paladar. Com seu tom profundo e vibrante, é uma bebida que refresca e nutre, evocando memórias de tardes ensolaradas e colheitas em família. Feito com uvas frescas e naturais, seu aroma inconfundível preenche o ambiente, criando um convite irresistível à mesa. O suco de uva é mais do que uma bebida; é um toque de tradição e afeto que celebra a essência da culinária mineira, tornando cada gole uma celebração de sabor e aconchego.</p>
+                </div>
+            </section>
+            
+            <section id="receitas">
+              <h2 class="treceitas">RECEITAS ESPECIAIS 🍳</h2>
+              <div class="tairf">
+                <a href="Receitas/RECEITA_Torresmo.html"><img src="imagens/Torresmo na Airfryer.jpg" alt="Torresmo na Airfryer" class="rImagens"></a>
+                <p>O <span style="color: brown;">Torresmo</span> é um petisco irresistível e muito amado na culinária mineira, com seu sabor crocante e salgado que conquista a todos. Preparado na Airfryer, ele ganha uma versão mais leve, mantendo a crocância e o aroma inconfundíveis. Cada pedacinho é um convite à descontração, perfeito para acompanhar uma cervejinha ou ser o destaque de um aperitivo especial. <br><br><span style="color: rgb(27, 102, 17);">Clique na Imagem para acompanhar a receita!</span></p>
+              </div>
+
+              <div class="bcarne">
+                <p>O <span style="color: brown;">Bolinho de Carne moída simples</span> é um clássico da culinária mineira, que traz conforto e sabor em cada mordida. Com uma mistura de carne moída, temperos e um toque de carinho, esses bolinhos são crocantes por fora e macios por dentro. O aroma que invade a casa durante o preparo é irresistível e evoca lembranças de almoços em família e reuniões descontraídas. Perfeitos como petisco ou acompanhamento, os bolinhos de carne moída são uma verdadeira tradição que encanta e satisfaz.<br><br><span style="color: rgb(27, 102, 17);">Clique na Imagem para acompanhar a receita!</span></p>
+                <a href="Receitas/RECEITA_Bolinho.html"><img src="imagens/Bolinho de Carne.jpg" alt="Bolinho de Carne simples" class="rImagens"></a>
+              </div>
+
+              <div class="calabresa">
+                <a href="Receitas/RECEITA_Canjica.html"><img src="imagens/Canjica Salgada.jpg" alt="Canjica salgada com calabresa" class="rImagens"></a>
+                <p>A <span style="color: brown;">Canjica salgada com calabresa</span> é uma iguaria que une o sabor da tradição mineira com um toque especial. Preparada com grãos de milho macios, ela ganha vida com a adição de calabresa defumada e temperos que intensificam seu sabor. O aroma envolvente que se espalha pela casa remete a encontros familiares e celebrações aconchegantes. Essa combinação deliciosa traz à mesa um prato reconfortante e cheio de personalidade, perfeito para aquecer o coração e satisfazer o paladar. <br><br><span style="color: rgb(27, 102, 17);">Clique na Imagem para acompanhar a receita!</span></p>
+              </div>
+
+              <div class="vatolada">
+                <p>A <span style="color: brown;">Vaca Atolada</span> é um prato que exala o sabor da cozinha caipira, trazendo a combinação perfeita de 
+                  costela bovina cozida com pedaços generosos de mandioca. O caldo encorpado, resultado do cozimento 
+                  lento, se mistura com os temperos que perfumam a cozinha, criando um aroma irresistível. Cada garfada 
+                  é uma explosão de sabores, com a maciez da carne e o toque cremoso da mandioca. É uma comida que traz 
+                  conforto e a lembrança dos almoços de domingo, típica da tradição mineira.<br><br><span style="color: rgb(27, 102, 17);">Clique na Imagem para 
+                  acompanhar a receita!</span></p>
+                <a href="Receitas/RECEITA_Vaca-Atolada.html"><img src="imagens/Vaca-atolada.jpeg" alt="Mexidão Mineiro" class="rImagens"></a>
+              </div>
+            </section>
+        </div>
+    </main>
+    
+    <main>
+      <div class="horarios">
+        <section id="horarios">
+          <h2 class="thorarios">HORÁRIOS DE <br>FUNCIONAMENTO ⌚</h2>
+        </section>
+
+        <div class="values">
+          <h2>SEGUNDA A SEXTA</h2>
+          <h2>09h ÀS 19h</h2>
+          <h2>--------------------------</h2>
+          <h2>SÁBADO</h2>
+          <h2>09h ÀS 14:00</h2>
+        </div>
+      </div>
+    </main> 
+    
+    <footer>
+      <img src="social_media/facebook.png" alt="Facebook" class="Social">
+      <img src="social_media/whatsapp.png" alt="Whatsapp" class="Social">
+      <img src="social_media/instagram.png" alt="Instagram" class="Social">
+      <img src="social_media/Twitter.png" alt="Twitter" class="Social">
+      <img src="social_media/GooglePlus.png" alt="Google+" class="Social">
+    </footer>
+    <footer class="copyright">
+      <p>Copyright©2024; Designed by CEFET-MG</p>
+    </footer>
+    
+
+
+    
+</body>
+</html>

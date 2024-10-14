@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagens/FundoDesfocado.jpg');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: auto;
+}
+
+.content { 
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 800px;
+    padding: 30px;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.button { 
+    max-height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.texto-principal p {
+    font-size: 45px;
+    font-family: "Oswald", sans-serif;
+    margin: 20px;
+}
+
+.arrow {
+    width: 24px;
+    transition: transform 0.1s ease-in-out;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+input {
+    width: 300px; 
+    height: 40px; 
+    padding: 5px;  
+    border: 1px solid #BFBFBF;
+    font-size: 20px; 
+    border-radius: 6px;
+    color: #191919;
+}
+
+input::placeholder {
+    color: #cecece;
+}
+
+input:focus {
+    outline-color: #3483FA;
+    border-color: #3483FA;
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+
+.nome-texto, .bairro-texto, .rua-texto, .numero-texto, .complemento-texto, .telefone-texto {
+    font-size: 25px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    font-family: Arial;
+}
+
+.bairro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.casa {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 70px;
+}
+
+.rua {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.complemento {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.frete {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #00A650;
+    font-family: Arial;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    padding: 20px 10px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.comprar {
+    display: flex;
+    color: white;
+    background-color: #3483FA;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.comprar p {
+    font-size: 25px;
+    font-family: arial;
+    color: white;
+}
+
+.comprar:hover {
+    background-color: #296dcc;
+}
+
+a {
+    text-decoration: none;
+    width: 100%;
+    overflow: none;
+}
